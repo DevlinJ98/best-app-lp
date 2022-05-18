@@ -1,0 +1,118 @@
+html,body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.gradient{
+    background: rgb(154, 104, 198);
+    background: linear-gradient(180deg, rgba(154, 104, 198, 1) 0%, rgba(105, 0, 199, 1) 100%);
+}
+
+.page-header{
+    color: #ffffff;
+}
+
+.page-header .container {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+
+.page-header h1{
+    font-size: 5rem;
+    font-weight: 700;
+    font-family: 'Noto Sans',
+    sans-serif;
+}
+.page-header p {
+    font-size: 1.7rem;
+    
+}
+
+.desktop__app {
+   width: 300px;
+  
+
+}
+
+.page-header .btn {
+    padding: 15px 70px;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    border-radius: 25px;
+    color:rgba(105, 0, 199, 1) ;
+    font-family: 'Noto Sans',
+    sans-serif;
+}
+
+.app-section{
+    background: rgba(54, 0, 168, 1);
+    color: #ffffff;
+}
+
+.app-section .container{
+    padding-top: 70px;
+}
+
+.app-section img{
+    width: 120px;
+}
+
+.app-section p {
+    font-size: 1.5rem;
+}
+
+.app-section .row__btn {
+    padding-top: 8rem !important;
+    padding-bottom: 7rem !important;
+}
+
+.app-section .btn {
+    padding: 15px 200px;
+    font-size: 1.7rem;
+    text-transform: uppercase;
+    border-radius: 25px;
+    color:rgba(105, 0, 199, 1);
+    font-family: 'Noto Sans',
+    sans-serif;
+}
+
+@media screen and (max-width:2560px) {
+    .mobile__app{
+        display: none;
+    }
+}
+
+@media screen and (max-width:828px){
+    
+    
+    .desktop__app {
+        width: 250px;
+    }
+
+    .page-header h1 {
+        font-size: 4rem;
+    }
+
+    .page-header .btn {
+        padding: 15px 65px;
+    }
+}
+
+@media screen and (max-width:425px) {
+    
+    .page-header .container {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+    
+    .desktop__app {
+        display: none;
+    }
+    .mobile__app {
+        display: inline-block;
+       width: 300px;
+    }
+
+    .app-section .btn {
+        padding: 15px 55px;
+    }
+   
+}
